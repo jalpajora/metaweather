@@ -1,0 +1,17 @@
+.tableContainer {
+  background: #fff;
+  max-width: 600px;
+}
+
+.tableContainer table {
+  margin: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableContainer thead,
+.tableContainer tbody {
+  border: 1px solid #e3e5e8;
+}
+
+

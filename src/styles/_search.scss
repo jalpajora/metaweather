@@ -1,0 +1,32 @@
+/*
+.searchBox {
+  position: relative;
+  display: inline-block;
+}
+*/
+
+.searchBox {
+  display: flex;
+  justify-content: stretch;
+}
+
+.searchBox-input {
+  background-color: #fff;
+  border: 1px solid #d5d9dc;
+  border-radius: 2px;
+  color: #242a2f;
+  display: inline-block;
+  font-family: Source Sans Pro,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: normal;
+  margin: 0;
+  outline: none;
+  // padding: .25rem;
+}
+/*
+.searchIcon {
+  position: absolute;
+  right: .25rem;
+  padding: 2px 0;
+}
+*/

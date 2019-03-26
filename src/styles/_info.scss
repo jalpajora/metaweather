@@ -1,0 +1,29 @@
+.locationInfo__section tr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.locationInfo__img {
+  width: 80px;
+}
+ 
+.locationInfo__section .locationInfo__date {
+  color: #337ab7;
+}
+
+.locationInfo__section td {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 601px) {
+  .locationInfo__section td{
+    flex-basis: 33%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .locationInfo__img {
+    width: 80px;
+  }
+}
